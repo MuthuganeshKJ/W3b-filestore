@@ -1,0 +1,50 @@
+.container{
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.Gallery{
+  margin: 20vh, auto;
+  display: flex;
+  align-items: center;
+}
+
+button{
+  padding: 100px;
+  margin: 10px;
+  background-color: rgba(193, 255, 255, 0.142);
+  border-radius: 10px;
+  border: dotted rgba(134, 15, 198, 0.744);
+  border-width: 5px;
+  color: aliceblue;
+}
+
+.Image{
+  background-image: linear-gradient(to bottom right, rgba(63, 49, 255, 0.212), rgba(215, 56, 254, 0.244));
+  background-image: url("https://png.pngtree.com/background/20220728/original/pngtree-white-stars-over-black-background-pattern-design-picture-image_1844958.jpg");
+  background-repeat: space;
+  background-size: cover;
+  padding: 5px;
+  margin: 10px,auto;
+  border: solid rgb(255, 255, 255);
+  border-radius: 30px;
+  height: 80vh;
+  color: rgb(208, 0, 255);
+
+}
+
+.Image>h6{
+  background-color: aliceblue;
+  border-radius: 30px;
+  height: 5vh;
+  font-size: 10px;
+}
+.About{
+  background-image: url("https://images.unsplash.com/photo-1544656376-ffe19d4b7353?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBza3l8ZW58MHx8MHx8&w=1000&q=80");
+  border-radius: 30px;
+  width: 80vw;
+  margin: auto;
+}
+
+
